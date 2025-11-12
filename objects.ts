@@ -40,6 +40,7 @@
 type User = {
   name: string;
   isActive: boolean;
+  id: number;
   //not necessary to enter credit card
 };
 let myUser: User = {
@@ -47,6 +48,7 @@ let myUser: User = {
   name: "h",
   //   email: "d@.com",
   isActive: false,
+  id: 3453,
 };
 
 // myUser.email = "hd@gamil.com";
@@ -72,4 +74,4 @@ const heroPower: Array<number> = [];
 superHeros.push("spiderman");
 heroPower.push(2);
 
-allUsers.push({ name: "", isActive: true });
+allUsers.push({ name: "", isActive: true, id: 4242 });
