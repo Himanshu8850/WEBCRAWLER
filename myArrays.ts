@@ -37,7 +37,4 @@ let seatAllotment: "aisle" | "middle" | "window";
 
 seatAllotment = "aisle";
 
-//not allowed
-// seatAllotment = "crew";
-
 export {};
